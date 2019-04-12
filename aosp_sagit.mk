@@ -27,10 +27,10 @@ EXTENDED_BUILD_TYPE := OFFICIAL
 # Inherit from sagit device
 $(call inherit-product, device/xiaomi/sagit/device.mk)
 
-# Inherit some common AospExtended stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common Havoc stuff.
+$(call inherit-product, vendor/havoc/common.mk)
 
-PRODUCT_NAME := aosp_sagit
+PRODUCT_NAME := havoc_sagit
 PRODUCT_DEVICE := sagit
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 6
