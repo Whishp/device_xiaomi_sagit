@@ -25,7 +25,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, device/xiaomi/sagit/device.mk)
 
 # Inherit some common Havoc stuff.
-$(call inherit-product, vendor/havoc/common.mk)
+$(call inherit-product, vendor/havoc/config/common.mk)
 
 PRODUCT_NAME := havoc_sagit
 PRODUCT_DEVICE := sagit
